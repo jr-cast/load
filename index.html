@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d2a3ee28df.js" crossorigin="anonymous"></script>
+  <title>Load | Open-source thermal load visualizer</title>
+</head>
+
+<body>
+  <header>
+    <span>LOAD LOGO</span>
+    <div class="more">
+      <a href="#help">Help</a>
+      <a href="#about">About</a>
+    </div>
+  </header>
+  <nav>
+    <div class="left">
+      <a href="#views"><i class="fa-solid fa-record-vinyl"></i>
+        Views</a>
+      <a href="#systembrowser"><i class="fa-solid fa-user-astronaut"></i>
+        System browser</a>
+      <a href="#properties"><i class="fa-solid fa-business-time"></i>
+        Properties</a>
+      <a href="#settings"><i class="fa-solid fa-virus"></i>
+        Settings</a>
+    </div>
+    <div class="right">
+      <a href="#">Comments</a>
+      <a href="#">Screenshot</a>
+      <a href="#">Share</a>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <section class="sidenav">
+      <ul>
+        <li><i class="fa-solid fa-house-chimney"></i>Home</li>
+        <li>Fit</li>
+        <li>Orbit</li>
+        <li>Pan</li>
+        <li>Zoom</li>
+        <li>Measure</li>
+        <li>Section</li>
+        <li>Explode</li>
+        <li>Markup</li>
+      </ul>
+    </section>
+    <section>
+      <input type="file" name="load" id="file-input" />
+      <canvas id="three-canvas"></canvas>
+      <script src="bundle.js"></script>
+    </section>
+  </div>
+</body>
+
+</html>

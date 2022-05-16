@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "three": "^0.140.2",
+    "web-ifc-three": "^0.0.115"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.73.0"
+  }
+}
